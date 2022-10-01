@@ -8,9 +8,11 @@
     "node": true
   },
   "rules": {
+    "eqeqeq": "off",
     "no-console": 0,
     "indent": 0,
     "linebreak-style": 0,
+    "no-underscore-dangle": 0,
     "prettier/prettier": [
       "error",
       {
@@ -19,7 +21,8 @@
         "singleQuote": true,
         "printWidth": 100,
         "tabWidth": 4,
-        "semi": true
+        "semi": true,
+        "parser": "flow"
       }
     ]
   },
